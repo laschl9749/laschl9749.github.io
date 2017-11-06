@@ -5,12 +5,131 @@
   </head>
   <body>
     
+    <table style="width:100%">
+    <tr> 
+    <th>Name</th>
+    <th>Start Tag</th>
+    <th>End Tag</th>
+    </tr>
+   
+    <tr>
+    <td>
+      <a href="#HTML">HTML</a>
+    </td>
+    <td>&lt;html&gt;</td>
+    <td>&lt;/html&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Header">Header</a>
+    </td>
+    <td>&lt;head&gt;</td>
+    <td>&lt;/head&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Title">Title</a>
+    </td>
+    <td>&lt;title&gt;</td>
+    <td>&lt;/title&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Body">Body</a>
+    </td>
+    <td>&lt;body&gt;</td>
+    <td>&lt;/body&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Headings">Headings</a>
+    </td>
+    <td>&lt;h1, h2...&gt;</td>
+    <td>&lt;/h1, /h2...&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Paragraphs">Paragraphs</a>
+    </td>
+    <td>&lt;p&gt;</td>
+    <td>&lt;/p&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Breaks">Breaks</a>
+    </td>
+    <td>&lt;br&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Lines">Lines</a>
+    </td>
+    <td>&lt;hr&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Comments">Comments</a>
+    </td>
+    <td>&lt;!--;</td>
+    <td>--&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Links">Links</a>
+    </td>
+    <td>&lt;a&gt;</td>
+    <td>&lt;/a&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Images">Images</a>
+    </td>
+    <td>&lt;img&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Lists">Lists</a>
+    </td>
+    <td>&lt;ul&gt;&lt;ol&gt;&lt;li&gt;</td>
+    <td>&lt;/ul&gt;&lt;/ol&gt;&lt;/li&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Tables">Tables</a>
+    </td>
+    <td>&lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;td&gt;</td>
+    <td>&lt;/table&gt;&lt;/tr&gt;&lt;/th&gt;&lt;/td&gt;</td>
+    </tr>
+    
+    <tr>
+    <td>
+      <a href="#Blocks">Blocks</a>
+    </td>
+    <td>&lt;div&gt;</td>
+    <td>&lt;/div&gt;</td>
+    </tr>
+    
+    
+    </table>
+    
     <h1>What constitues a valid HTML page?</h1>
     
     
     
     
-   <h3>HTML</h3>
+   <h3 id="HTML">HTML</h3>
    
     <h4>Description</h4>
     <p>The code that tells the webpage this document will be using HTML as the computer language and should therefore use the rules of HTML, within the HTML tags is where you put the code if youre sing html.</p>
@@ -27,7 +146,7 @@
       
       
       
-  <h3>Header</h3>
+  <h3 id="Header">Header</h3>
     <h4>Description</h4>
     <p>The head tag is used to apply styles, scripts and basically information about the information inside the doument, it's the link between the content and the presenation effectively.</p>
     
@@ -44,7 +163,7 @@
       
       
       
-  <h3>Title</h3>
+  <h3 id="Title">Title</h3>
     <h4>Description</h4>
     <p>The title tag is used to name the webpage in question, if the search engine is the content then google is it's name.</p>
     <h4>Syntax/Example/Display</h4>
@@ -55,7 +174,7 @@
     </pre>
     <hr>
       
-   <h3>Body</h3>
+   <h3 id="Body">Body</h3>
     <h4>Description</h4>
     <p>The body tag is where all the visible content of a website goes uness specififed by another tag for example &lt;!-- --&gt;, it's where I'm writing these words right now, as I think to myself </p>
     <h4>Syntax</h4>
@@ -69,7 +188,7 @@
   
   
    
-  <h3>Headings</h3>
+  <h3 id="Headings">Headings</h3>
     <h4>Description</h4>
     <p>The header is a way to organize the webpage, there are six types of header,</p><h1>h1</h1><h2>h2</h2><h3>h3</h3><h4>h4</h4><h5>h5</h5><h6>h6</h6>
     <p>They are used in place of font sizing as best i can tell, it acts like different sizes of font from word or google docs.</p>
@@ -84,14 +203,16 @@
   
   
   
-  <h3>Paragraphs</h3>
+  <h3 id="Paragraphs">Paragraphs</h3>
     <h4>Description</h4>
     <p>it defines where a Paragraph begins and ends, that's about it, it allows for text to be diplsayed like what I'm typing but besides that it doesn't do much besides let me use inline editting.</p>
     <h4>Syntax/Example/Display</h4>
+    <pre>
     &lt;p&gt;Hello world, I am a human refrencing a line in a movie, enjoy!&lt;p&gt;
+    </pre>
     <hr>
       
-  <h3>Breaks</h3>
+  <h3 id="Breaks">Breaks</h3>
     <h4>Description</h4>
     <p>Breaks are ways to <br> change the flow of paragraphs and ann <br>-oy people for no good reason. in all seriousness they are used to split up large chunks of text or basically anything from other webpage content</p>
     <h4>Syntax/Example/Display</h4>
@@ -103,7 +224,7 @@
     </pre>
     <hr>
       
-  <h3>Lines</h3>
+  <h3 id="Lines">Lines</h3>
     <h4>Description</h4>
     <p>Lines are a way to seperate pages, either by page, paragraph, topic really anyway you want</p>
     <h4>Syntax/Example/Display</h4>
@@ -117,7 +238,7 @@
     </pre>
     <hr>
     
-  <h3>Comments</h3>
+  <h3 id="Comments">Comments</h3>
     <h4>Description</h4>
     <p>Comments are ways to have well, comments be given to people viewing the source code without appearing on the webpage itself, it can be used for notes, to give instructions, hidden messages</p>
     <h4>Syntax/Example/Display</h4>
@@ -129,7 +250,7 @@
     </pre>
     <hr>
       
-  <h3>Links</h3>
+  <h3 id="Links">Links</h3>
     <h4>Description</h4>
     <p>A way for people to link sites, images and make the worldwideweb completely connected in such a way.</p>
     <h4>Syntax/Example/Display</h4>
@@ -138,7 +259,7 @@
       
     </pre>
     <hr>
-  <h3>Images</h3>
+  <h3 id="Images">Images</h3>
     <h4>Description</h4>
     <p>a way to display images either from the internet itself, from a seperate file or really any other way images are stored</p>
     <h4>Syntax/Example/Display</h4>
@@ -146,10 +267,10 @@
     <img src="http://www.davidreneke.com/wp-content/uploads/2017/07/Spiral.jpg">
     <hr>
       
-  <h3>Lists</h3>
+  <h3 id="Lists">Lists</h3>
     <h4>Description</h4>
     <p>ways to oraginze text, using the tags will list whats said either in a bulleted, ordered or lettered fashion.</p>
-    <h4>Syntax</h4>
+    <h4>Syntax/Example/Display</h4>
     <pre>
     &lt;ul&gt; &lt;ol&gt; &lt;li&gt;
     &lt;li&gt; A &lt;/li&gt;
@@ -162,20 +283,43 @@
     </pre>
     <hr>
       
-  <h3>Tables</h3>
+  <h3 id="Tables">Tables</h3>
     <h4>Description</h4>
-    <h4>Syntax</h4>
-    <p>< table >< tr >< th>< td></p>
-    <h4>Example</h4>
-    <h4>Display</h4>
+    <p>A way to display information using a table, not much to say except it looks like spreadsheets from excel and google classroom</p>
+    <h4>Syntax/Example/Display</h4>
+    <pre>
+    &lt;table&gt;
+    &lt;tr&gt;
+    &lt;th&gt;
+    &lt;td&gt;
+    &lt;table style="width:100%"&gt;
+    &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Start Tag&lt;/th&gt;
+    &lt;th&gt;End Tag&lt;/th&gt;
+    &lt;/tr&gt;
+   
+    &lt;tr&gt;
+    &lt;td&gt;
+      &lt;a href="#HTML"&gt;HTML&lt;/a&gt;
+    &lt;/td&gt;
+    &lt;td&gt;&lt;html&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/html&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    </pre>
     <hr>
       
-  <h3>Blocks</h3>
+  <h3 id="Blocks">Blocks</h3>
     <h4>Description</h4>
-    <h4>Syntax</h4>
-    <p>< div ></p>
-    <h4>Example</h4>
-    <h4>Display</h4>
+    <p>These are tags which allow you to select groups of code and then give them a different setting from your deafault, it's as I understand it a type of inline code which has the highest priority</p>
+    <h4>Syntax/Example/Display</h4>
+    <pre>
+    &lt;div style=font-family:"Arial";&gt;
+    &lt;p&gt;I'm so tired while writing this, I hate having birthdays sometimes agh it's too late for this sh*t&lt;/p&gt;
+    &lt;h6&gt;I am done hooray!&lt;/h6&gt;
+    &lt;/div&gt;
+    </pre>
+    
     <hr>
     
   
