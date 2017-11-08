@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     
     <table style="width:100%">
+      
     <tr> 
     <th>Name</th>
     <th>Start Tag</th>
     <th>End Tag</th>
+    <th>Example</th>
     </tr>
    
     <tr>
@@ -18,6 +23,13 @@
     </td>
     <td>&lt;html&gt;</td>
     <td>&lt;/html&gt;</td>
+    <td>
+      <pre>
+  &lt;!DOCTYPE&gt;
+    &lt;html&gt;
+    &lt;/html&gt;
+      </pre>
+      </td>
     </tr>
     
     <tr>
@@ -26,6 +38,16 @@
     </td>
     <td>&lt;head&gt;</td>
     <td>&lt;/head&gt;</td>
+    <td>
+      <pre>
+  &lt;head&gt;
+   &lt;meta charset="utf-8"&gt;
+   &lt;meta name="viewport" content="width=device-width"&gt;
+   &lt;title&gt;repl.it&lt;/title&gt;
+   &lt;link href="index.css" rel="stylesheet" type="text/css"/&gt;
+  &lt;/head&gt;
+      </pre>
+      </td>
     </tr>
     
     <tr>
@@ -34,6 +56,11 @@
     </td>
     <td>&lt;title&gt;</td>
     <td>&lt;/title&gt;</td>
+    <td>
+      <pre>
+        &lt;title&gt;repl.it&lt;/title&gt;
+      </pre>
+    </td>
     </tr>
     
     <tr>
@@ -42,6 +69,13 @@
     </td>
     <td>&lt;body&gt;</td>
     <td>&lt;/body&gt;</td>
+    <td>
+      <pre>
+        &lt;body&gt;
+         &lt;p&gt;Oof I don't like examples very much&lt;/p&gt;
+        &lt;/body&gt; 
+      </pre>
+    </td>
     </tr>
     
     <tr>
@@ -50,6 +84,11 @@
     </td>
     <td>&lt;h1, h2...&gt;</td>
     <td>&lt;/h1, /h2...&gt;</td>
+    <td>
+      <pre>
+        &lt;h1&gt;Headings Rule?&lt;/h1&gt;
+      </pre>
+    </td>
     </tr>
     
     <tr>
@@ -58,6 +97,11 @@
     </td>
     <td>&lt;p&gt;</td>
     <td>&lt;/p&gt;</td>
+    <td>
+      <pre>
+        &lt;p&gt;hmm, I wonder how I can do better&lt;/p&gt;
+      </pre>
+    </td>
     </tr>
     
     <tr>
@@ -65,6 +109,14 @@
       <a href="#Breaks">Breaks</a>
     </td>
     <td>&lt;br&gt;</td>
+    <td></td>
+    <td>
+      <pre>
+        &lt;p&gt;end of a paragraph&lt;/p&gt;
+        &lt;br&gt;
+        &lt;p&gt;beginning of one&lt;/p&gt;
+      </pre>
+    </td>
     </tr>
     
     <tr>
@@ -72,14 +124,27 @@
       <a href="#Lines">Lines</a>
     </td>
     <td>&lt;hr&gt;</td>
+    <td></td>
+    <td>
+      <pre>
+        &lt;p&gt;end of a page&lt;/p&gt;
+        &lt;hr&gt;
+        &lt;p&gt;beginning of one&lt;/p&gt;
+      </pre>
+    </td>
     </tr>
     
     <tr>
     <td>
       <a href="#Comments">Comments</a>
     </td>
-    <td>&lt;!--;</td>
+    <td>&lt;!--</td>
     <td>--&gt;</td>
+    <td>
+      <pre>
+        &lt;!-- here is a comment within a comment --&gt;
+      </pre>
+    </td>
     </tr>
     
     <tr>
@@ -88,6 +153,11 @@
     </td>
     <td>&lt;a&gt;</td>
     <td>&lt;/a&gt;</td>
+    <td>
+      <pre>
+        &lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;
+      </pre>
+    </td>
     </tr>
     
     <tr>
@@ -95,6 +165,8 @@
       <a href="#Images">Images</a>
     </td>
     <td>&lt;img&gt;</td>
+    <td></td>
+    <td><img src="https://ofbiz-vm2.apache.org:8443/images/products/GZ-1000/small.png"></td>
     </tr>
     
     <tr>
@@ -103,6 +175,13 @@
     </td>
     <td>&lt;ul&gt;&lt;ol&gt;&lt;li&gt;</td>
     <td>&lt;/ul&gt;&lt;/ol&gt;&lt;/li&gt;</td>
+    <td>
+      <pre>
+        &lt;ul&gt;A&lt;/ul&gt;
+        &lt;ul&gt;B&lt;/ul&gt;
+        &lt;ul&gt;C&lt;/ul&gt;        
+      </pre>
+    </td>
     </tr>
     
     <tr>
@@ -111,6 +190,16 @@
     </td>
     <td>&lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;td&gt;</td>
     <td>&lt;/table&gt;&lt;/tr&gt;&lt;/th&gt;&lt;/td&gt;</td>
+    <td>
+      <pre>
+        &lt;table&gt;
+        &lt;tr&gt;
+        &lt;td&gt;
+        &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+      </pre>
+    </td>
     </tr>
     
     <tr>
@@ -119,6 +208,13 @@
     </td>
     <td>&lt;div&gt;</td>
     <td>&lt;/div&gt;</td>
+    <td>
+      <pre>
+        &lt;div class="redtext"&gt;
+         &lt;p&gt;I am typically purple but the div would make me red
+        &lt;/div&gt;
+      </pre>
+    </td>
     </tr>
     
     
@@ -126,15 +222,11 @@
     
     <h1>What constitues a valid HTML page?</h1>
     
-    
-    
-    
-   <h3 id="HTML">HTML</h3>
-   
-    <h4>Description</h4>
+   <h3 id="HTML" class="subsections">HTML</h3>
+    <h4 class="headings">Description</h4>
     <p>The code that tells the webpage this document will be using HTML as the computer language and should therefore use the rules of HTML, within the HTML tags is where you put the code if youre sing html.</p>
     
-    <h4>Syntax/Example/Dsiplay</h4>
+    <h4 class="headings">Syntax/Example/Dsiplay</h4>
     <pre> 
     &lt;html&gt;
     &lt;body&gt;
@@ -143,16 +235,17 @@
     &lt;/html&gt;
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_elements.asp">W3schools Elements (!DOCTYPE hmtl & html tags explained)</a>
+    <a href="https://www.w3schools.com/html/html_elements.asp" class = "links">W3schools Elements (!DOCTYPE hmtl & html tags explained)</a>
     <hr>
       
       
       
-  <h3 id="Header">Header</h3>
-    <h4>Description</h4>
+  <h3 id="Header" class="subsections">Header</h3>
+    <h4 class="headings">Description</h4>
     <p>The head tag is used to apply styles, scripts and basically information about the information inside the doument, it's the link between the content and the presenation effectively.</p>
     
-    <h4>Syntax/Example/Display</h4>
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;head&gt;
     &lt;meta charset="utf-8"&gt;
@@ -162,28 +255,34 @@
     &lt;/head&gt;
     </pre>
     
-     <a href="https://www.w3schools.com/html/html_elements.asp">W3schools Elements (head tag explained)</a>
+     <a href="https://www.w3schools.com/html/html_elements.asp" class = "links">W3schools Elements (head tag explained)</a>
     <hr>
       
       
       
-  <h3 id="Title">Title</h3>
-    <h4>Description</h4>
+  <h3 id="Title" class="subsections">Title</h3>
+    <h4 class="headings">Description</h4>
     <p>The title tag is used to name the webpage in question, if the search engine is the content then google is it's name.</p>
-    <h4>Syntax/Example/Display</h4>
+    
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;head&gt;
     &lt;title&gt;Title of a title of a title tag&lt;/title&gt;
     &lt;/head&gt;
     </pre>
-    
-     <a href="https://www.w3schools.com/html/html_elements.asp">W3schools Elements (title tag explained)</a>
+     
+     <a href="https://www.w3schools.com/html/html_elements.asp" class = "links">W3schools Elements (title tag explained)</a>
     <hr>
+    
+    
       
-   <h3 id="Body">Body</h3>
-    <h4>Description</h4>
+   <h3 id="Body" class="subsections">Body</h3>
+    <h4 class="headings">Description</h4>
     <p>The body tag is where all the visible content of a website goes uness specififed by another tag for example &lt;!-- --&gt;, it's where I'm writing these words right now, as I think to myself </p>
-    <h4>Syntax</h4>
+    
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;body&gt;
     &lt;h4>Description&lt;/h4&gt;
@@ -191,58 +290,64 @@
     &lt;h4>Syntax&lt;/h4&gt;
     </pre>
     
-     <a href="https://www.w3schools.com/html/html_elements.asp">W3schools Elements (body tag explained)</a>
+     <a href="https://www.w3schools.com/html/html_elements.asp" class = "links">W3schools Elements (body tag explained)</a>
     <hr>
   
   
    
-  <h3 id="Headings">Headings</h3>
-    <h4>Description</h4>
+  <h3 id="Headings" class="subsections">Headings</h3>
+    <h4 class="headings">Description</h4>
     <p>The header is a way to organize the webpage, there are six types of header,</p><h1>h1</h1><h2>h2</h2><h3>h3</h3><h4>h4</h4><h5>h5</h5><h6>h6</h6>
     <p>They are used in place of font sizing as best i can tell, it acts like different sizes of font from word or google docs.</p>
-   
-    <h4>Syntax/Example/Display</h4>
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;h1&gt;I hate headings but I like them ironically&lt;h1&gt;
     &lt;h2&gt;Or do i just like them unironically&lt;h2&gt;
     &lt;h3&gt;The world may never know&lt;h3&gt;
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_headings.asp">W3schools Headings (h1, h2... heading tags explained)</a>
+    <a href="https://www.w3schools.com/html/html_headings.asp" class = "links">W3schools Headings (h1, h2... heading tags explained)</a>
     <hr>
   
   
   
-  <h3 id="Paragraphs">Paragraphs</h3>
-    <h4>Description</h4>
+  <h3 id="Paragraphs" class="subsections">Paragraphs</h3>
+    <h4 class="headings">Description</h4>
     <p>it defines where a Paragraph begins and ends, that's about it, it allows for text to be diplsayed like what I'm typing but besides that it doesn't do much besides let me use inline editting.</p>
-    <h4>Syntax/Example/Display</h4>
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;p&gt;Hello world, I am a human refrencing a line in a movie, enjoy!&lt;p&gt;
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3schools Paragrpahs (paragraph tag explained)</a>
+    <a href="https://www.w3schools.com/html/html_paragraphs.asp" class = "links">W3schools Paragrpahs (paragraph tag explained)</a>
     <hr>
       
     
     
-  <h3 id="Breaks">Breaks</h3>
-    <h4>Description</h4>
+  <h3 id="Breaks" class="subsections">Breaks</h3>
+    <h4 class="headings">Description</h4>
     <p>Breaks are ways to <br> change the flow of paragraphs and ann <br>-oy people for no good reason. in all seriousness they are used to split up large chunks of text or basically anything from other webpage content</p>
-    <h4>Syntax/Example/Display</h4>
+    
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;p&gt; breaks are great ways to &lt;br&gt; change the flow of paragraphs and ann &lt;br&gt; -oy people.
     &gt;br&lt;
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3schools Paragrpahs (break tag explained)</a>
+    <a href="https://www.w3schools.com/html/html_paragraphs.asp" class = "links">W3schools Paragrpahs (break tag explained)</a>
     <hr>
       
+      
     
-  <h3 id="Lines">Lines</h3>
-    <h4>Description</h4>
+  <h3 id="Lines" class="subsections">Lines</h3>
+    <h4 class="headings">Description</h4>
     <p>Lines are a way to seperate pages, either by page, paragraph, topic really anyway you want</p>
-    <h4>Syntax/Example/Display</h4>
+    
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
 
     &lt;/pre&gt;
@@ -251,56 +356,62 @@
       &lt;hr&gt; = <hr>
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_headings.asp">W3schools Headings (line tag explained)</a>
+    <a href="https://www.w3schools.com/html/html_headings.asp" class = "links">W3schools Headings (line tag explained)</a>
     <hr>
     
     
     
-  <h3 id="Comments">Comments</h3>
-    <h4>Description</h4>
+  <h3 id="Comments" class="subsections">Comments</h3>
+    <h4 class="headings">Description</h4>
     <p>Comments are ways to have well, comments be given to people viewing the source code without appearing on the webpage itself, it can be used for notes, to give instructions, hidden messages</p>
-    <h4>Syntax/Example/Display</h4>
     
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;!-- --&gt;
     &lt;!-- Don't use this as an example, it's a terrible one --&gt;
-    
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_comments.asp">W3schools Comments (comment tag explained)</a>
+    <a href="https://www.w3schools.com/html/html_comments.asp" class = "links">W3schools Comments (comment tag explained)</a>
     <hr>
       
     
     
-  <h3 id="Links">Links</h3>
-    <h4>Description</h4>
+  <h3 id="Links" class="subsections">Links</h3>
+    <h4 class="headings">Description</h4>
     <p>A way for people to link sites, images and make the worldwideweb completely connected in such a way.</p>
-    <h4>Syntax/Example/Display</h4>
+    
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;a href="www.google.com"&gt;Google&lt;/a&gt;
-      
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_attributes.asp">W3schools Attributes (&lt;a&gt; tag explained)</a>
+    <a href="https://www.w3schools.com/html/html_attributes.asp" class = "links">W3schools Attributes (&lt;a&gt; tag explained)</a>
     <hr>
     
     
-  <h3 id="Images">Images</h3>
-    <h4>Description</h4>
+    
+  <h3 id="Images" class="subsections">Images</h3>
+    <h4 class="headings">Description</h4>
     <p>a way to display images either from the internet itself, from a seperate file or really any other way images are stored</p>
-    <h4>Syntax/Example/Display</h4>
+    
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     &lt;img&gt; src="http://www.davidreneke.com/wp-content/uploads/2017/07/Spiral.jpg">
     <img src="http://www.davidreneke.com/wp-content/uploads/2017/07/Spiral.jpg">
     
-    <a href="https://www.w3schools.com/html/html_images.asp">W3schools Images (img tag explained)</a>
+    <a href="https://www.w3schools.com/html/html_images.asp" class = "links">W3schools Images (img tag explained)</a>
     <hr>
     
     
       
-  <h3 id="Lists">Lists</h3>
-    <h4>Description</h4>
+  <h3 id="Lists" class="subsections">Lists</h3>
+    <h4 class="headings">Description</h4>
     <p>ways to oraginze text, using the tags will list whats said either in a bulleted, ordered or lettered fashion.</p>
-    <h4>Syntax/Example/Display</h4>
+    
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;ul&gt; &lt;ol&gt; &lt;li&gt;
     &lt;li&gt; A &lt;/li&gt;
@@ -309,18 +420,19 @@
     <li>A</li>
     <li>B</li>
     <li>C</li>
-   
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_lists.asp">W3schools Lists (ul, ol, li listing tags explained)</a>
+    <a href="https://www.w3schools.com/html/html_lists.asp" class = "links">W3schools Lists (ul, ol, li listing tags explained)</a>
     <hr>
     
     
       
-  <h3 id="Tables">Tables</h3>
-    <h4>Description</h4>
+  <h3 id="Tables" class="subsections">Tables</h3>
+    <h4 class="headings">Description</h4>
     <p>A way to display information using a table, not much to say except it looks like spreadsheets from excel and google classroom</p>
-    <h4>Syntax/Example/Display</h4>
+    
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;table&gt;
     &lt;tr&gt;
@@ -342,15 +454,17 @@
     &lt;/tr&gt;
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_tables.asp">W3schools Tables (table, tr, th, td tags explained)</a>
+    <a href="https://www.w3schools.com/html/html_tables.asp" class = "links">W3schools Tables (table, tr, th, td tags explained)</a>
     <hr>
       
     
     
-  <h3 id="Blocks">Blocks</h3>
-    <h4>Description</h4>
+  <h3 id="Blocks" class="subsections">Blocks</h3>
+    <h4 class="headings">Description</h4>
     <p>These are tags which allow you to select groups of code and then give them a different setting from your deafault, it's as I understand it a type of inline code which has the highest priority</p>
-    <h4>Syntax/Example/Display</h4>
+    
+    
+    <h4 class="headings">Syntax/Example/Display</h4>
     <pre>
     &lt;div style=font-family:"Arial";&gt;
     &lt;p&gt;I'm so tired while writing this, I hate having birthdays sometimes agh it's too late for this sh*t&lt;/p&gt;
@@ -358,7 +472,7 @@
     &lt;/div&gt;
     </pre>
     
-    <a href="https://www.w3schools.com/html/html_blocks.asp">W3schools Blocks (div, span block tags explained)</a>
+    <a href="https://www.w3schools.com/html/html_blocks.asp" class = "links">W3schools Blocks (div, span block tags explained)</a>
     <hr>
     
   
