@@ -1,0 +1,32 @@
+body {
+  background-color: #f0ecf8; 
+  font: "Trebuchet", "Arial", Serif;
+  color: #472150;
+}
+
+.headings {
+  color: #de80f4;
+}
+
+.subsections {
+  color: Purple;
+}
+
+.links {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+table, th, td{
+    border: 1px solid purple;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.code {
+  background-color: #d8d4df;
+  border: 2px solid #c2bec8;
+}
