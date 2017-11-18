@@ -1,0 +1,22 @@
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    background-color:white;
+    font-size:10px;
+}
+
+
+.content p {
+  font-family:"Ariel", sans-serif;
+  color:black;
+}
+
+
+img {
+  float: right;
+}
+
+
+body {
+  font-family:verdana;
+}
