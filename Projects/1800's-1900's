@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  
+<head>
+  
+<title>1800's-1900's</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+
+<body>
+  
+  <div class="header">
+    <h1>
+      <a href="https://en.wikipedia.org/wiki/Hapsburg"> House Hapsburg </a> 
+    </h1>
+    <p>This webpage shall be covering Austria as a Great power of Europe, Ruling the crowns of Bohemia and Hungary and their inferiors as well as the major events of the 1800 and 1900's like the Revolutanary Wars, The Congress of Vienna and the reasoning for some of the largest rebleiions and why they managed to cause two offical world wars as well as the declaration of the Austrian Empire in response to the French Empire.</p>
+  </div>
+  
+  
+<div class = center>
+<div class="dropdown">
+   <a class="dropbtn" href="index.html">Home</a>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Origins Of Austria</button>
+  <div class="dropdown-content">
+    <a href="Celtics.html">Celtics</a>
+    <a href="Romans.html">Romans</a>
+    <a href="Charlemange.html">Charlemange</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">House Bandenburg</button>
+  <div class="dropdown-content">
+    <a href="976-1000's.html">976-1000's</a>
+    <a href="1100's-1278.html">1100's-1278</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">House Hapsburg</button>
+  <div class="dropdown-content">
+    <a href="1278-1300's.html">1278-1300's</a>
+    <a href="1400's-1500's.html">1400's-1500's</a>
+    <a href="1600's-1700's.html">1600's-1700's</a>
+    <a href="1800's-1900's.html">1800's-1900's</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Major Events</button>
+  <div class="dropdown-content">
+    <a href="Wars.html">Wars</a>
+    <a href="Battles.html">Battles</a>
+    <a href="Innovations.html">Innovations</a>
+    <a href="Geopolitics.html">Geopoltics</a>
+  </div>
+</div>
+</div>
+
+<div class="column main">
+  <h2>Austria</h2>
+  <p>Austria was a now after years of being the Ruler of the H.R.E was now embroiled within the tangled web that made up current European affairs, The wrap up of the Revolutanary Wars started by Napolean and was consolidating their power, with it they shrunk the HRE from 81 nations to 3, the free cities from 51 to 6, with this action and the declaration of the French Empire, the Austrians think it appropiate after the disolution of the HRE to declare themselves a Empire. After the Napoleanic Wars it was relatively peaceful for the power, and under it the german confederation was formed and monitored to unify the german peoples in absence of the Holy Roman Empire and for 30 years this worked but in 1848 the revolution that shook Germany showed that the people wanted a unifed nation, but around which power and would Austria be included? The answers were Prussia and No, before the German Empire was formed though Prussia and Austria worked to take back the german duchies of Holestein and Schleswig from Denmark, but they couldn't agree on how they should be administered which with a bit of meddling by Otto von Bismark sparked the Austro-Prussian War, Defeated by the Prussians Austria was forced to leave the German confederation and no longer took part in german politics. In addition in 1867 the hungarians revolted and demanded they be of equal standing to the Austrians forming a dual soveringty of the Austrian Emperor and the less Emperory Emperor of Hungary.</p>
+  <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Austria_Hungary_ethnic.svg/775px-Austria_Hungary_ethnic.svg.png" width="49%" height="49%">
+  <img class="img" src="https://www.euratlas.net/history/europe/1900/entity_5689.jpg" width="49%" height="49%">
+</div>
+
+</body>
+</html>
