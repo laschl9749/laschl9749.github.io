@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  
+<head>
 
+<title>CSS Website Project</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+
+<body>
+
+<div class="header">
+  <h1>Austria, Reigon to Empire</h1>
+    <p>This site is an overview of the nationstate of Austria, the homepage will cover modern geopraphy, goverment set-up and itś current situation in the world</p>
+</div>
+
+<div class = center>
+  <div class="dropdown">
+    <a class="dropbtn" href="index.html">Home</a>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Origins Of Austria</button>
+    <div class="dropdown-content">
+      <a href="Celtics.html">Celtics</a>
+      <a href="Romans.html">Romans</a>
+      <a href="Charlemange.html">Charlemange</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">House Bandenburg</button>
+    <div class="dropdown-content">
+      <a href="976-1000's.html">976-1000's</a>
+      <a href="1100's-1278.html">1100's-1278</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">House Hapsburg</button>
+    <div class="dropdown-content">
+      <a href="1278-1300's.html">1278-1300's</a>
+      <a href="1400's-1500's.html">1400's-1500's</a>
+      <a href="1600's-1700's.html">1600's-1700's</a>
+      <a href="1800's-1900's.html">1800's-1900's</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Major Events</button>
+    <div class="dropdown-content">
+      <a href="Wars.html">Wars</a>
+      <a href="Battles.html">Battles</a>
+      <a href="Innovations.html">Innovations</a>
+      <a href="Geopolitics.html">Geopolitics</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="row content">
+  <div class="column side">
+    <h2>Geography</h2>
+    <p>Today Austria is a small, predominantly mountainous country found in the Central Europe Reigon. It has three main geographic areas it covers: The Alps, mainly found in the southern or west, the largest mountain range in Europe and the most extensive. The Danube, found in the east, it´s name is derived from river flowing through the area. The river itself is the second larger in Europe and flows into the balkans and black sea with surronding plains and fields and finally to the north The Bohemian Forest, another mountain range covering a large chunk of it´s namesake, Bohemia</p>
+  </div>
+  <div class="column middle">
+    <h2>2000´s and the Future</h2>
+    <p>
+      Today Austria is a small country of little importance, while it certainly is strong economically gobally it isn´t anything of note like their former rivals Germany and France. This is because after the death of Wladyslaw III at the crusade of Varna the Austrians began a long period of growth until the protestant reformation and even then they still grew in power, the Partitions of Poland, The Burgundian Inheriance, Emperors of the Holy Roman Empire, The House Hapsburg becoming the ruling dynasty of the Spanish throne, The Unions of Hungary and Bohemia and many many other occurances but after their defeat in WW1 and WW2 they lost the power they had so carefully gained, centuries of conquest and diplomacy lost, so now the country is in a much weaker state as well as having not nearly the same impact as it used to have, especially as the scale of what constitutes a power has gone from simply small reigons to the entire globe, for now Austria will be a shell of the former empire it was, still a a european nation it should do quite well with the rise of automation and current advancements in science and technology but the days of it being a power that could rock the world to the foundation are gone, at least the Germans have another country to holiday to where they know the language!
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Coat_of_arms_of_Austria.svg/1200px-Coat_of_arms_of_Austria.svg.png" width="35%" height="35%" >
+       <img src="http://www.flags.net/images/largeflags/AUST0001.GIF" width="50%" height="50%" >
+    </p>
+    
+    
+    <p>The flag of Austria and their coat of arms</p>
+  </div>
+  <div class="column side">
+    <h2>Politics</h2>
+      <p>Austria is actually a Federal, representative democratic republic, similar to the U.S.A as it derives the right to rule or be the goverment of Austria through the Austrian Federal Constitution, the difference is that they have parliment compared to the congress. In addition they are democratic unlike the US which is simply a republic. Parliment consists of the Nationalrat being the lower house and the upper house, the Bundesrat. The Nationalrat brings laws to a vote and if it succeds in the lower house is passed onto the Bundesrat where it can either be vetoed and overturned by a 2/3 majority from the lower house or pass and be made into law.</p>
+  </div>
+</div>
+  
+</body>
+</html>
